@@ -508,55 +508,55 @@
                     <span>Structural Dead Load:</span>
                     <div class="result-value-container">
                         <span class="result-value-number" id="structuralDead">0.00</span>
-                        <span class="result-value-unit">metric tons</span>
+                        <span class="result-value-unit">tons</span>
                     </div>
                 </div>
                 <div class="result-detail">
                     <span>Floor Finish Load:</span>
                     <div class="result-value-container">
                         <span class="result-value-number" id="floorFinishDead">0.00</span>
-                        <span class="result-value-unit">metric tons</span>
+                        <span class="result-value-unit">tons</span>
                     </div>
                 </div>
                 <div class="result-detail">
                     <span>Brick Load:</span>
                     <div class="result-value-container">
                         <span class="result-value-number" id="brickLoad">0.00</span>
-                        <span class="result-value-unit">metric tons</span>
+                        <span class="result-value-unit">tons</span>
                     </div>
                 </div>
                 <div class="result-detail">
                     <span>Total Dead Load:</span>
                     <div class="result-value-container">
                         <span class="result-value-number" id="totalDead">0.00</span>
-                        <span class="result-value-unit">metric tons</span>
+                        <span class="result-value-unit">tons</span>
                     </div>
                 </div>
                 <div class="result-detail">
                     <span>Factored Dead Load:</span>
                     <div class="result-value-container">
                         <span class="result-value-number" id="factoredDead">0.00</span>
-                        <span class="result-value-unit">metric tons</span>
+                        <span class="result-value-unit">tons</span>
                     </div>
                 </div>
                 <div class="result-detail">
                     <span>Live Load:</span>
                     <div class="result-value-container">
                         <span class="result-value-number" id="liveLoadResult">0.00</span>
-                        <span class="result-value-unit">metric tons</span>
+                        <span class="result-value-unit">tons</span>
                     </div>
                 </div>
                 <div class="result-detail">
                     <span>Factored Live Load:</span>
                     <div class="result-value-container">
                         <span class="result-value-number" id="factoredLive">0.00</span>
-                        <span class="result-value-unit">metric tons</span>
+                        <span class="result-value-unit">tons</span>
                     </div>
                 </div>
                 <div class="highlight">
                     <div>Total Factored Load</div>
                     <div class="highlight-value" id="totalFactored">0.00</div>
-                    <div style="text-align: center;">metric tons</div>
+                    <div style="text-align: center;">tons</div>
                 </div>
             </div>
 
@@ -571,13 +571,13 @@
             </div>
 
             <div class="note">
-                * Structure Weight: Concrete density = 2400 kg/m³, 1 lb = 0.453592 kg, 1 in = 0.0254 m, 1 ft = 0.3048 m<br>
+                * Structure Weight: Concrete density = 2400 kg/mÂ³, 1 lb = 0.453592 kg, 1 in = 0.0254 m, 1 ft = 0.3048 m<br>
                 * Axial Capacity: Based on ACI 318-19 standards<br>
-                * Load Conversion: 1 metric ton ˜ 2.20462 kips
+                * Load Conversion: 1 metric ton Â˜ 2.20462 kips
             </div>
 
             <div class="app-footer">
-                © 2025 Structural Engineering Tools | Professional Grade Calculator
+                Â© 2025 Structural Engineering Tools | Professional Grade Calculator
             </div>
         </div>
     </div>
@@ -586,7 +586,7 @@
         let rebarSetCount = 1;
 
         function calculateWeight() {
-            const concreteDensity = 2400; // kg/m³
+            const concreteDensity = 2400; // kg/mÂ³
             const lbToKg = 0.453592;
             const inchToMeter = 0.0254;
             const footToMeter = 0.3048;
@@ -785,7 +785,7 @@
             let comparisonClass = '';
 
             // Convert total factored load from metric tons to kips
-            const actualLoadKips = totalFactoredTons * 2.20462; // 1 metric ton ˜ 2.20462 kips
+            const actualLoadKips = totalFactoredTons * 2.20462; // 1 metric ton Â˜ 2.20462 kips
             document.getElementById('actualLoad').value = actualLoadKips.toFixed(2);
 
             if (!isNaN(actualLoadKips)) {
