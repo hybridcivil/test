@@ -1,7 +1,7 @@
 {
     "name": "Hybrid Civil",
-    "short_name": "Hybridcivil",
-    "start_url": "/test/columnlite2.html",
+    "short_name": "Hybrid Civil",
+    "start_url": "./test/columnlite2.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
