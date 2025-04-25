@@ -1,6 +1,5 @@
 const CACHE_NAME = 'task-list-pwa-v1';
 const urlsToCache = [
-    '/',
     './test/columnlite2.html',
     '/app.js',
     '/iconr.png',
