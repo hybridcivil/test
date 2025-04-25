@@ -1,18 +1,18 @@
 {
-    "name": "Task List PWA",
-    "short_name": "Tasks",
-    "start_url": "/index.html",
+    "name": "Hybrid Civil",
+    "short_name": "Hybridcivil",
+    "start_url": "/columnlite2.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "icons": [
         {
-            "src": "icon-192.png",
+            "src": "iconr.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "icon-512.png",
+            "src": "iconr.png",
             "sizes": "512x512",
             "type": "image/png"
         }
